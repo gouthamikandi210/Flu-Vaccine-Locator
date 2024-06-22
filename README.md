@@ -43,7 +43,7 @@ EDA involved exploring the vaccine data to answer these questions:
 - What are the differences between California and Illinois in terms of walk-in acceptance for flu shots on Mondays?
 - Which state has the highest and lowest number of accepted insurance?
 
-### Data Analysis
+### Data Analysis and Visualizations
 
 #### 1.Which zip code has the highest average supply value?
 A Map view allows a geospatial context to vaccine distributors that makes it easy for them to understand how supply levels are distributed among various locations. 
@@ -53,8 +53,6 @@ Map showcasing vaccination locations with Latitude and Longitude.
 #### Insights: 
 - This will assist vaccine distributors in making well-informed decisions regarding vaccine allocation to meet increased demand in particular areas if zip codes with consistently high demand (darker shades) for vaccinations is identified. 
 - When hovering over the darkest blue, it reveals that the zip code (54154) has the highest average supply level.
-#### Executive summary: 
-A clear understanding of supply distribution across various locations is made possible for vaccine distributors by the comprehensive overview provided by the geospatial map view. A color gradient from orange to darker blue indicates average supply levels, and markers sized by Loc_Admin_Zipcode provide a visual hierarchy using latitude and longitude coordinates. Distributors can more efficiently allocate resources and effectively address gaps in vaccine supply thanks to this user-friendly representation, which speeds up decision-making. Because of the dynamic features of the map, vaccine distribution efforts can be more strategically responsive in real time through monitoring and localized planning.
 
 ![](https://github.com/gouthamikandi210/Flu-Vaccine-Locator/blob/main/Screenshot%20(436).png)
 
@@ -87,8 +85,6 @@ WHEN "N/A" THEN "" END
 #### Insights:
 - Identifying the Monday timeslots when most walk-in patients receive flu shots. It is then possible for health providers to decide when to assign additional staff for effective walk-in service at busy times.
 - The largest number of walk-ins (1276) in California occurred between 8 a.m. and 8 p.m., suggesting a high level of demand during regular business hours.
-#### Executive Summary: 
-The bar graph effectively compares the number of walk-in patients for the "Flu shot" in California and Illinois on Mondays during various time slots. It is simple to spot trends and patterns in walk-in traffic thanks to the visual clarity of bar lengths. When color markers are used, differences in the number of walk-ins during particular periods are easily visible. The filters that have been applied such as the limitation to "Flu shot" vaccinations, Parameter 1 (Loc_admin_state), and Parameter 2 (Monday Hours) ensure a targeted analysis that empowers distributors to decide the best way to allocate resources and develop strategic plans.
 
 ![](https://github.com/gouthamikandi210/Flu-Vaccine-Locator/blob/main/Screenshot%20(437).png)
 
@@ -100,8 +96,6 @@ The Line chart presents an in-depth analysis of insurance acceptance rates in va
 #### Insights:
 - From the Line chart, it is clear that California stands out with the highest count of insurance accepted (17,384), indicating a significant demand or accessibility to insurance coverage. While North Dakota has the least count of insurance accepted (5) which was unexpected.
 - A strategic distribution of resources is made possible by identifying weak performers, like North Dakota (5), and strong performers, like California. In the states with lower counts, this information can help prioritize efforts to improve insurance acceptance.
-#### Executive Summary:
-The line graph offers a thorough analysis of insurance acceptance rates in various states. With the highest number of insurance acceptances (17,384), California stands out as having a high demand for or accessibility to insurance coverage. North Dakota, on the other hand, shows an incredibly low count (5), which calls for more investigation into the underlying causes. This enables specific actions and allocation of resources to address differences in insurance acceptance among various states.
 
 ![](https://github.com/gouthamikandi210/Flu-Vaccine-Locator/blob/main/Screenshot%20(438).png)
 
@@ -113,3 +107,11 @@ The line graph offers a thorough analysis of insurance acceptance rates in vario
 - In the Line chart, we can click on the data points to see more information in detail. 
 
 ![](https://github.com/gouthamikandi210/Flu-Vaccine-Locator/blob/main/Screenshot%20(439).png)
+
+### Results 
+
+- A clear understanding of supply distribution across various locations is made possible for vaccine distributors by the comprehensive overview provided by the geospatial map view. A color gradient from orange to darker blue indicates average supply levels, and markers sized by Loc_Admin_Zipcode provide a visual hierarchy using latitude and longitude coordinates. Distributors can more efficiently allocate resources and effectively address gaps in vaccine supply thanks to this user-friendly representation, which speeds up decision-making. Because of the dynamic features of the map, vaccine distribution efforts can be more strategically responsive in real time through monitoring and localized planning.
+
+- The bar graph effectively compares the number of walk-in patients for the "Flu shot" in California and Illinois on Mondays during various time slots. It is simple to spot trends and patterns in walk-in traffic thanks to the visual clarity of bar lengths. When color markers are used, differences in the number of walk-ins during particular periods are easily visible. The filters that have been applied such as the limitation to "Flu shot" vaccinations, Parameter 1 (Loc_admin_state), and Parameter 2 (Monday Hours) ensure a targeted analysis that empowers distributors to decide the best way to allocate resources and develop strategic plans.
+
+- The line graph offers a thorough analysis of insurance acceptance rates in various states. With the highest number of insurance acceptances (17,384), California stands out as having a high demand for or accessibility to insurance coverage. North Dakota, on the other hand, shows an incredibly low count (5), which calls for more investigation into the underlying causes. This enables specific actions and allocation of resources to address differences in insurance acceptance among various states.
